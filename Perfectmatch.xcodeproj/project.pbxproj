@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473B966825E6FC7C00A25647 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473B966725E6FC7C00A25647 /* WelcomeViewController.swift */; };
 		47D8B53A25E6DB31007170FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8B53925E6DB31007170FE /* AppDelegate.swift */; };
 		47D8B53C25E6DB31007170FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8B53B25E6DB31007170FE /* SceneDelegate.swift */; };
 		47D8B53E25E6DB31007170FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8B53D25E6DB31007170FE /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		473B966725E6FC7C00A25647 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		47D8B53625E6DB31007170FE /* Perfectmatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perfectmatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D8B53925E6DB31007170FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47D8B53B25E6DB31007170FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				47D8B53D25E6DB31007170FE /* ViewController.swift */,
 				47D8B53F25E6DB31007170FE /* Main.storyboard */,
 				47D8B54225E6DB32007170FE /* Assets.xcassets */,
+				473B966725E6FC7C00A25647 /* WelcomeViewController.swift */,
 				47D8B54425E6DB32007170FE /* LaunchScreen.storyboard */,
 				47D8B54725E6DB32007170FE /* Info.plist */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D8B53E25E6DB31007170FE /* ViewController.swift in Sources */,
+				473B966825E6FC7C00A25647 /* WelcomeViewController.swift in Sources */,
 				47D8B53A25E6DB31007170FE /* AppDelegate.swift in Sources */,
 				47D8B53C25E6DB31007170FE /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.perfectmatch.Perfectmatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectmatch.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.perfectmatch.Perfectmatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectmatch.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
