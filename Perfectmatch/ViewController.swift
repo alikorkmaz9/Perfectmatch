@@ -7,7 +7,15 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
+    func onboardingSegue() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
+            self.performSegue(withIdentifier: "toWelcomeVC", sender: nil )
+        })
+    }
+    
+    // SplashScreen Text
     func textType() {
         let title = UILabel()
         title.sizeToFit()
@@ -20,23 +28,23 @@ class ViewController: UIViewController {
         self.view.addSubview(title)
         title.center = self.view.center
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         textType()
     }
     
+    // isNewUser or not
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        //show onboarding
         if Core.shared.isNewUser() {
-            //show onboarding
-            let vc = storyboard?.instantiateViewController(identifier: "welcome") as! WelcomeViewController
-            vc.modalPresentationStyle = .fullScreen
-            present(vc, animated: true)
+            onboardingSegue()
+            // let vc = storyboard?.instantiateViewController(identifier: "welcome") as! WelcomeViewController
+            // vc.modalPresentationStyle = .fullScreen
+            // present(vc, animated: true)
         }
     }
-
-
 }
 
 class Core {
@@ -48,7 +56,7 @@ class Core {
     }
     
     func isNotNewUser() {
-        UserDefaults.standard.set(true, forKey: "isNewUser")
+        UserDefaults.standard.set(true, forKey: "isNotNewUser")
     }
 }
 
