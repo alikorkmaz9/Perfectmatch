@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2488FCD296DE80F9F9980D21 /* Pods_Perfectmatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86867A23F6041B8FFD8EFB4B /* Pods_Perfectmatch.framework */; };
+		473B966825E6FC7C00A25647 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473B966725E6FC7C00A25647 /* WelcomeViewController.swift */; };
+		479F38DA25F8026D00BAC139 /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F38D925F8026D00BAC139 /* QuestionVC.swift */; };
+		479F38DF25F8055B00BAC139 /* QuestionVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F38DE25F8055B00BAC139 /* QuestionVCCell.swift */; };
+		47C5B68A25FA46E8000F6AD1 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5B68925FA46E8000F6AD1 /* DetailsVC.swift */; };
 		47D8B53A25E6DB31007170FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8B53925E6DB31007170FE /* AppDelegate.swift */; };
 		47D8B53C25E6DB31007170FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8B53B25E6DB31007170FE /* SceneDelegate.swift */; };
-		47D8B53E25E6DB31007170FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8B53D25E6DB31007170FE /* ViewController.swift */; };
+		47D8B53E25E6DB31007170FE /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8B53D25E6DB31007170FE /* SplashScreen.swift */; };
 		47D8B54125E6DB31007170FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B53F25E6DB31007170FE /* Main.storyboard */; };
 		47D8B54325E6DB32007170FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B54225E6DB32007170FE /* Assets.xcassets */; };
 		47D8B54625E6DB32007170FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D8B54425E6DB32007170FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02B9465E52AC942878B9A21A /* Pods-Perfectmatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perfectmatch.release.xcconfig"; path = "Target Support Files/Pods-Perfectmatch/Pods-Perfectmatch.release.xcconfig"; sourceTree = "<group>"; };
+		473B966725E6FC7C00A25647 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		479F38D925F8026D00BAC139 /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
+		479F38DE25F8055B00BAC139 /* QuestionVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVCCell.swift; sourceTree = "<group>"; };
+		47C5B68925FA46E8000F6AD1 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 		47D8B53625E6DB31007170FE /* Perfectmatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perfectmatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D8B53925E6DB31007170FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47D8B53B25E6DB31007170FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		47D8B53D25E6DB31007170FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47D8B53D25E6DB31007170FE /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		47D8B54025E6DB31007170FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47D8B54225E6DB32007170FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47D8B54525E6DB32007170FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47D8B54725E6DB32007170FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6949A3D8EC63E9AD40DEE1D5 /* Pods-Perfectmatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perfectmatch.debug.xcconfig"; path = "Target Support Files/Pods-Perfectmatch/Pods-Perfectmatch.debug.xcconfig"; sourceTree = "<group>"; };
+		86867A23F6041B8FFD8EFB4B /* Pods_Perfectmatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Perfectmatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2488FCD296DE80F9F9980D21 /* Pods_Perfectmatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42CA1BB277BFE91EECC9375B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86867A23F6041B8FFD8EFB4B /* Pods_Perfectmatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		47D8B52D25E6DB31007170FE = {
 			isa = PBXGroup;
 			children = (
 				47D8B53825E6DB31007170FE /* Perfectmatch */,
 				47D8B53725E6DB31007170FE /* Products */,
+				85580F02BD3CD0301F2D43D0 /* Pods */,
+				42CA1BB277BFE91EECC9375B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,68 @@
 		47D8B53825E6DB31007170FE /* Perfectmatch */ = {
 			isa = PBXGroup;
 			children = (
+				47FB04AB25F0B50E00183726 /* Resources */,
+				47FB04AA25F0B4FC00183726 /* AppDelegate */,
+				47FB04A925F0B4F300183726 /* Controllers */,
+				47FB04A825F0B4D900183726 /* Views */,
+				47FB04A625F0B41A00183726 /* Model */,
 				47D8B53925E6DB31007170FE /* AppDelegate.swift */,
 				47D8B53B25E6DB31007170FE /* SceneDelegate.swift */,
-				47D8B53D25E6DB31007170FE /* ViewController.swift */,
+				47D8B53D25E6DB31007170FE /* SplashScreen.swift */,
 				47D8B53F25E6DB31007170FE /* Main.storyboard */,
 				47D8B54225E6DB32007170FE /* Assets.xcassets */,
+				473B966725E6FC7C00A25647 /* WelcomeViewController.swift */,
+				479F38D925F8026D00BAC139 /* QuestionVC.swift */,
+				479F38DE25F8055B00BAC139 /* QuestionVCCell.swift */,
+				47C5B68925FA46E8000F6AD1 /* DetailsVC.swift */,
 				47D8B54425E6DB32007170FE /* LaunchScreen.storyboard */,
 				47D8B54725E6DB32007170FE /* Info.plist */,
 			);
 			path = Perfectmatch;
+			sourceTree = "<group>";
+		};
+		47FB04A625F0B41A00183726 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47FB04A825F0B4D900183726 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		47FB04A925F0B4F300183726 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		47FB04AA25F0B4FC00183726 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		47FB04AB25F0B50E00183726 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85580F02BD3CD0301F2D43D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6949A3D8EC63E9AD40DEE1D5 /* Pods-Perfectmatch.debug.xcconfig */,
+				02B9465E52AC942878B9A21A /* Pods-Perfectmatch.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47D8B54A25E6DB32007170FE /* Build configuration list for PBXNativeTarget "Perfectmatch" */;
 			buildPhases = (
+				EC0572CA2BCE9164CF9676C0 /* [CP] Check Pods Manifest.lock */,
 				47D8B53225E6DB31007170FE /* Sources */,
 				47D8B53325E6DB31007170FE /* Frameworks */,
 				47D8B53425E6DB31007170FE /* Resources */,
+				9BC1F163149DE57BEBD2D128 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +210,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BC1F163149DE57BEBD2D128 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Perfectmatch/Pods-Perfectmatch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Perfectmatch/Pods-Perfectmatch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Perfectmatch/Pods-Perfectmatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0572CA2BCE9164CF9676C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Perfectmatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47D8B53225E6DB31007170FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47D8B53E25E6DB31007170FE /* ViewController.swift in Sources */,
+				479F38DF25F8055B00BAC139 /* QuestionVCCell.swift in Sources */,
+				47D8B53E25E6DB31007170FE /* SplashScreen.swift in Sources */,
+				473B966825E6FC7C00A25647 /* WelcomeViewController.swift in Sources */,
 				47D8B53A25E6DB31007170FE /* AppDelegate.swift in Sources */,
+				47C5B68A25FA46E8000F6AD1 /* DetailsVC.swift in Sources */,
+				479F38DA25F8026D00BAC139 /* QuestionVC.swift in Sources */,
 				47D8B53C25E6DB31007170FE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +407,7 @@
 		};
 		47D8B54B25E6DB32007170FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6949A3D8EC63E9AD40DEE1D5 /* Pods-Perfectmatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +418,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.perfectmatch.Perfectmatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectmatch.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,6 +427,7 @@
 		};
 		47D8B54C25E6DB32007170FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B9465E52AC942878B9A21A /* Pods-Perfectmatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,7 +438,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.perfectmatch.Perfectmatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectmatch.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
