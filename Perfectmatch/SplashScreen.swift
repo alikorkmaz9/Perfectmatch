@@ -8,10 +8,10 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class SplashScreen: UIViewController {
     func onboardingSegue() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
-            self.performSegue(withIdentifier: "toWelcomeVC", sender: nil )
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5, execute: {
+        self.performSegue(withIdentifier: "toWelcomeVC", sender: nil )
         })
     }
     
